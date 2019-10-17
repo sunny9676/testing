@@ -1,0 +1,37 @@
+<html>
+<head>
+    
+    <script>
+   function fun1()
+    {
+    var fname=document.getElementById("f1").value;
+        var number=document.getElementById("m1").value;
+        var c=fname + number;
+        document.getElementById("res").innerHTML=c;
+    }
+    </script>
+    </head>
+    <style>
+    
+    a{
+            color:white; 
+            text-decoration:none;
+        }
+    </style>
+    <body bgcolor="red">
+            <h1>Student Login</h1>
+            
+    <b>Enter FirstName:</b>
+        <input type="text" id="f1" >
+        <br>
+        <br>
+        <b>Mobile Number:</b>
+        <input type="number" id="m1">
+            <br>
+    
+ <input type="submit" onclick="fun1()"/>
+            <br>
+            <p id="res"></p>
+        <a href="Studentregistration.html">Student registration</a
+    </body>
+</html>

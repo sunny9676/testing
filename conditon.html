@@ -1,0 +1,52 @@
+<html>
+<head>
+    <script>
+    
+    function compare()
+        {
+        var a=parseInt(document.getElementById("v1").value);
+        var b=parseInt(document.getElementById("v2").value);
+            if(a>b)
+            {
+
+var c=a+"is greater than "+b;
+                document.getElementById("res").innerHTML=c;
+}
+            else if(b>a)
+                {
+                    var c=b+"is greater than "+a;
+                    document.getElementById("res").innerHTML=c;
+                    
+                }
+            else 
+                {
+                    c=a+"is equal to "+b;
+                    document.getElementById("res").innerHTML=c;
+                }
+    }
+        
+    
+    </script>
+    <title>condition</title>
+</head>
+<body bgcolor="gold">
+    <form>
+        <div align="center">
+            <h1>Condition</h1><br>
+<b>enter the value1:</b>
+<input type="text"name="txt1" id="v1"/>
+<br/>
+<br/>
+
+<b>enter the value2:</b>
+<input type="text"name="txt2" id="v2"/>
+<br/>
+<br/>
+<input type="button" name="btn1" value="show"onclick="compare()"/>
+<p id ="res"></p>      
+           <a href="feedback.html">feedback</a>
+            
+        </div>
+    </form>
+    </body>
+</html> 
